@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geolocation and Smart Contract Interaction</title>
+  <!-- External CSS file for styling -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Geolocation and Smart Contract Interaction</h1>
+    <img src="file:///C:/Users/suhas/Desktop/dev%20final/geo_loc.webp" alt="Logo" class="logo">
+  </header>
+
+  <section class="buttons-section">
+    <button id="getLocationBtn" class="action-button">Get Location</button>
+    <button id="retrieveLocationBtn" class="action-button">Retrieve Location</button>
+    <button id="getBlockHashBtn" class="action-button">Get Block Hash</button>
+  </section>
+
+  <section id="locationInfo" class="data-section">
+    <img src="file:///C:/Users/suhas/Desktop/dev%20final/loc_logo.webp" alt="Location Icon" class="icon">
+    <p class="info-text">Location Information</p>
+  </section>
+
+  <section id="blockData" class="data-section">
+    <img src="file:///C:/Users/suhas/Desktop/dev%20final/block.webp" alt="Block Icon" class="icon">
+    <label for="blockHashInput">Enter Block Hash:</label>
+    <input type="text" id="blockHashInput" class="block-hash-input">
+    <button id="getBlockDataBtn" class="action-button">Get Block Data</button>
+  </section>
+
+  <!-- External JavaScript files for better organization -->
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.6.0/dist/web3.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/elliptic/6.5.4/elliptic.min.js"></script>
+  <!-- Your custom JavaScript files -->
+  <script src="new1.js"></script>
+  <script src="hash.js"></script>
+  <script src="retrnew.js"></script>
+</body>
+</html>

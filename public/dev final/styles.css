@@ -1,0 +1,95 @@
+/* Resetting default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling body */
+body {
+  background-color: #20b2aa; /* Medium dark blue background color */
+}
+
+/* Styling header */
+header {
+  background-color: #262626; /* Dark background color */
+  color: #fff; /* White text color */
+  text-align: center;
+  padding: 20px;
+}
+
+/* Styling h1 */
+h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Best font choice */
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Styling logo */
+.logo {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto; /* Centering logo */
+}
+
+/* Styling buttons */
+.buttons-section {
+  text-align: center; /* Centering buttons */
+  margin-top: 20px;
+}
+
+.action-button {
+  background-color: #4CAF50; /* Green background color */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px; /* Rounded corners */
+}
+
+.action-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Styling data sections */
+.data-section {
+  background-color: #f0f0f0; /* Light background color */
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center; /* Centering content */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px; /* Spacing between icon and text */
+}
+
+.info-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Best font choice */
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.block-hash-input {
+  width: 300px;
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 10px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Styling buttons-section on smaller screens */
+@media screen and (max-width: 600px) {
+  .buttons-section {
+    flex-direction: column; /* Stack buttons vertically */
+  }
+}
